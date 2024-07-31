@@ -6,4 +6,5 @@ def home(request):
     #return HttpResponse('<h1>Welcome to Home page</h1>')
     #return render(request, 'home.html')
     #return render(request, 'home.html', {'name': 'Ceyni Beltran'}) #Json
-    return render(request, 'about.html', {'name': 'Ceyni Beltran'}) #Json
+    name = 'Ceyni Beltran'
+    return render(request, 'about.html', {'name': name}) #Json
