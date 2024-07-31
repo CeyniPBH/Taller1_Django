@@ -17,4 +17,4 @@ def home(request):
     return render(request, 'home.html', {'searchTerm':searchTerm, 'movies': movies})
 
 def about(request):
-    return HttpResponse('<h1>Welcome to Home page</h1>')
+    return HttpResponse('<h1>Welcome to About page</h1>')
